@@ -1,0 +1,33 @@
+.video-item {
+  width: 90%;
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .left {
+    display: flex;
+    flex: 1;
+    float: left;
+    margin: 10px;
+
+    img {
+      width: 200px;
+      border-radius: 30px;
+    }
+  }
+
+  .right {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    float: right;
+    flex: 2;
+
+    span {
+      font-size: 20px;
+    }
+  }
+}

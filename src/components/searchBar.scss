@@ -1,0 +1,31 @@
+.search-bar {
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: crimson;
+    border-bottom: 2px solid lightcoral ;
+  }
+
+  form {
+    span {
+      font-size: 20px;
+      margin-right: 20px;
+    }
+
+    input {
+      font-size: 20px;
+      height: 50px;
+      width: 400px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid lightgray;
+    }
+  }
+}
